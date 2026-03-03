@@ -8,7 +8,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 
 # ---------------- UI ----------------
-st.title("Local RAG AI Assistant (Mahabharata)")
+st.title("Local RAG AI Assistant")
 
 # ---------------- Embeddings & DB ----------------
 embeddings = HuggingFaceEmbeddings(
